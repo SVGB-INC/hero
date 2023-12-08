@@ -1,0 +1,302 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  box-shadow: none;
+  scroll-behavior: smooth;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-size: 30px !important;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+
+.card {
+  box-shadow: rgb(48 51 128 / 10%) 0px 0px 6px;
+  border-radius: 8px;
+}
+
+.table tbody tr th, .table tbody tr td {
+  min-width: 180px;
+}
+
+.form-select:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+/* login */
+.login-main {
+  background: #f4f7f840;
+}
+
+.login-main .card {
+  box-shadow: rgb(48 51 128 / 10%) 0px 0px 6px;
+}
+
+.login-main .login-form h2 {
+  color: #a88f59;
+}
+
+/* login */
+/* navbar */
+.topbar .top-navbar {
+  box-shadow: none;
+}
+
+.topbar .top-navbar .navbar-header {
+  height: 74px;
+}
+
+.navbar-collapse {
+  padding-left: 60px !important;
+  justify-content: space-between;
+}
+
+.navbar-collapse .nav-detail .btn {
+  padding-bottom: 12px;
+  border-radius: 0px !important;
+}
+
+.navbar-collapse .nav-detail .btn.active {
+  border-bottom: 2px solid #a88f59;
+  padding-bottom: 12px;
+  border-radius: 0px !important;
+}
+
+.sidebar-brand {
+  display: flex;
+  height: 74px;
+  align-items: center;
+  margin: 0px;
+  padding: 0 10px 0 10px;
+  justify-content: center;
+  background: #a88f59;
+  color: #ffff;
+}
+#main-wrapper[data-layout="vertical"] .left-sidebar[data-sidebarbg="skin6"] .sidebar-nav ul .sidebar-item .sidebar-link.active {
+  background: transparent !important;
+}
+.nav-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nav-image .image-logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.account-main .profile-btn {
+  letter-spacing: 2px;
+  border-radius: 5px !important;
+  color: #a88f59;
+  border: 2px solid #31313140;
+}
+
+.account-main .card-profile {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.account-main .card-profile a img {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+}
+
+.account-main .card-from .card-body.body {
+  border-bottom: 1px solid #31313140;
+}
+
+.account-main .card-from .card-body.body input {
+  border-radius: 8px !important;
+}
+
+.account-main .card-from .card-body.body2 .btn {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 5px !important;
+}
+
+/* subscription */
+.subscription-main .card-profile img {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+}
+
+.subscription-main .subscription-plan .card {
+  border-radius: 20px;
+  box-shadow: none !important;
+}
+
+.subscription-main .subscription-plan .card .card-main {
+  background: #d8d8d8;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.subscription-main .subscription-plan .card .card-body {
+  border: 4px solid #d8d8d8;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.subscription-main .subscription-plan .card .card-main1 {
+  background: linear-gradient(to right, #a88f59 0%, rgba(255, 238, 215, 0.763) 118%);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.subscription-main .subscription-plan .card .card-body.linear {
+  border: 4px solid #a88f59;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* subscription */
+
+/* model-style */
+.model-tabs .nav-item .nav-link {
+  border-radius: 30px !important;
+  color: #171718;
+}
+
+.model-tabs .nav-item .nav-link.active {
+  background: #f7f7f7;
+  box-shadow: rgb(48 51 128 / 10%) 0px 0px 6px
+}
+
+.body-tab .form-check-input {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  border: 3px solid #f7f7f7;
+  box-shadow: rgb(48 51 128 / 10%) 0px 0px 6px;
+}
+
+.body-tab .form-check-input:checked {
+  background-color: #ff3f3f;
+}
+
+.body-tab .form-check-input.color1 {
+  background-color: #ff3f3f;
+}
+
+.body-tab .form-check-input.color2 {
+  background-color: #ff963a;
+}
+
+.body-tab .form-check-input.color3 {
+  background-color: #ffe865;
+}
+
+.body-tab .form-check-input.color4 {
+  background-color: #44ffb7;
+}
+
+.body-tab .form-check-input.color5 {
+  background-color: #328dfc;
+}
+
+.body-tab .form-check-input.color6 {
+  background-color: #a88f59;
+}
+
+.body-tab .form-check-input.color1:checked {
+  background-color: #ff3f3f;
+  box-shadow: #ff3f3f 0px 0px 6px;
+}
+
+.body-tab .form-check-input.color2:checked {
+  background-color: #ff963a;
+  box-shadow: #ff963a 0px 0px 6px;
+}
+
+.body-tab .form-check-input.color3:checked {
+  background-color: #ffe865;
+  box-shadow: #ffe865 0px 0px 6px;
+}
+
+.body-tab .form-check-input.color4:checked {
+  background-color: #44ffb7;
+  box-shadow: #44ffb7 0px 0px 6px;
+}
+
+.body-tab .form-check-input.color5:checked {
+  background-color: #328dfc;
+  box-shadow: #328dfc 0px 0px 6px;
+}
+
+.body-tab .form-check-input.color6:checked {
+  background-color: #a88f59;
+  box-shadow: #a88f59 0px 0px 6px;
+}
+
+/* model-style */
+/* test-1 */
+.test-1 .data-btn {
+  border-radius: 50px !important;
+  box-shadow: rgb(48 51 128 / 10%) 0px 0px 6px;
+  border: 1px solid rgb(48 51 128 / 10%);
+}
+
+.test-1 .tab-pane .sec-table .table tr td {
+  height: 130px;
+}
+
+.test-1 .tab-pane .sec-table .table .table-btn {
+  border-radius: 50px !important;
+}
+
+.test-1 .testing-tabs .nav-link.active {
+  background: none;
+  color: #a88f59;
+}
+
+.test-1 .testing-tabs .nav-link .btn-light {
+  border-radius: 50% !important;
+  box-shadow: rgb(48 51 128 / 10%) 0px 0px 6px;
+  border: 1px solid rgb(48 51 128 / 10%);
+}
+
+/* test-1 */
+/* profile */
+.tabs-main {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.tabs-main .nav-detail .btn {
+  border-radius: 0 !important;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.tabs-main .nav-detail .btn.active {
+  border-bottom: 3px solid #350587;
+}
+
+/* profile */
+@media only screen and (max-width: 555px) {
+  .container-fluid {
+    padding: 25px !important;
+  }
+}
